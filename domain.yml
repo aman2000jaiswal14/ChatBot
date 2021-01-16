@@ -1,0 +1,109 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- goodbye
+- bot_intro
+- greet
+- thanks
+- aman_intro
+- make_you
+- bot_challenge
+- after_greet
+- how_you
+- friends
+- more_aman
+- live_place
+- pr_intro
+- github_link
+- linkedin_link
+- work
+- search_work
+- intern
+- skills
+- email_id
+- phone_no
+- strength
+- ok
+- talk_aman
+entities:
+- BOSS
+responses:
+  utter_aman_intro:
+  - text: Aman is a junior year student in MMMUT.
+  utter_bot_intro:
+  - text: I am a bot assistant of Aman.
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_make_you:
+  - text: I am a bot made by Aman.
+  utter_after_greet:
+  - text: Great, Carry on!
+  utter_how_you:
+  - text: I am fine. Carry on!
+  utter_frineds:
+  - text: One of friends of Aman is Priyanka.
+  utter_pr_intro:
+  - text: Priyanka is classmate of Aman.
+  utter_linkedin_link:
+  - text: visit here https://www.linkedin.com/in/aman-jaiswal-0513841a5/
+  utter_github_link:
+  - text: visit here https://github.com/aman2000jaiswal14
+  utter_thanks:
+  - text: Your welcome
+  utter_more_aman:
+  - text: Aman is a core memeber in Google Developer Student club. He is learning
+      Machine learning and Data Science.
+  utter_live_place:
+  - text: He is currently in Deoria, UP, India.
+  utter_work:
+  - text: He is currently a Student.
+  utter_search_work:
+  - text: Yes
+  utter_intern:
+  - text: He is looking for Machine learning, Data science or Software development
+      intern/job.
+  utter_skills:
+  - text: Skills listed are Python,Machine Learning, DSA.
+  utter_email_id:
+  - text: aman2000jaiswal14@gmail.com
+  utter_phone_no:
+  - text: '9999999999'
+  utter_strength:
+  - text: His strength is handling data.
+  utter_ok:
+  - text: ''
+  utter_talk_aman:
+  - text: Ya sure, you can contact on his phone no.
+  utter_default:
+  - text: Sorry can you say again. I did not understand.
+actions:
+- utter_aman_intro
+- utter_bot_intro
+- utter_goodbye
+- utter_greet
+- utter_iamabot
+- utter_after_greet
+- utter_how_you
+- utter_bot_challenge
+- utter_friends
+- utter_pr_intro
+- utter_linkedin_link
+- utter_github_link
+- utter_thanks
+- utter_more_aman
+- utter_live_place
+- utter_work
+- utter_search_work
+- utter_intern
+- utter_skills
+- utter_email_id
+- utter_phone_no
+- utter_strength
+- utter_ok
+- utter_talk_aman
+- utter_default
