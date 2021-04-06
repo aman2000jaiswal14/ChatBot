@@ -77,8 +77,6 @@
   - utter_greet
 * friends
   - utter_frineds
-* pr_intro
-  - utter_pr_intro
 
 ## say goodbye
 * goodbye
