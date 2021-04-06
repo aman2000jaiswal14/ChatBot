@@ -101,11 +101,6 @@
 - tell me friends name of [Aman](BOSS)
 - tell me name of [Aman's](BOSS) friends
 
-## intent:pr_intro
-- Can i get more information about Priyanka.
-- tell me about Priyanka.
-- tell about her.
-
 ## intent:github_link
 - give me the [Aman's](BOSS) github link
 - give me the github link of [Aman](BOSS)
